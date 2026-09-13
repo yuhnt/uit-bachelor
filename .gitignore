@@ -1,0 +1,22 @@
+# =========================================================================
+# Target directories (Recursive rules for all C# sub-projects)
+# =========================================================================
+# Ignores all compiler output folders anywhere in the repo
+[Bb]in/
+[Oo]bj/
+
+# Ignores architecture-specific build folders
+x64/
+x86/
+arm/
+arm64/
+
+# Ignores Visual Studio and user-specific configurations
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignores JetBrains Rider or VS Code settings if present
+.idea/
+.vscode/
